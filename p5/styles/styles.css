@@ -1,0 +1,17 @@
+/* fonts */
+
+.cards .card {
+    border: 10px ridge #f00;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 13px;
+}
+
+.cards .card img {
+    width: 100%;
+}
+
+.cards .card p {
+    font: small-caps bold 20px sans-serif;
+    text-align: center;
+}

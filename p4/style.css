@@ -1,0 +1,138 @@
+/* Css Cajas */
+
+.caja_1 {
+    background-color: darkblue;
+    color: blanchedalmond;
+}
+
+.caja_2 {
+    background-color: aquamarine;
+    color: beige;
+}
+
+img.logo {
+    height: 20px;
+}
+
+.caja_logo {
+    text-align: end;
+}
+/* el text-align*/
+
+.elem_center {
+    text-align: center;
+}
+
+.elem_right {
+    text-align: right;
+}
+
+.elem_left {
+    text-align: left;
+}
+
+.elem_jus {
+    text-align: justify;
+}
+/* comportamientos del float con 2 elementos */
+
+.comp_float .elm1 {
+    background-color: red;
+    float: right;
+    width: 50%;
+}
+
+.comp_float .elm2 {
+    background-color: aqua;
+    float: left;
+    width: 50%;
+}
+
+/* comportamientos del float con 3 elementos */
+
+.comp_float_3 div {
+    float: left;
+    width: 33.33%;
+}
+
+.comp_float_3 .elm1 {
+    background-color: red;
+}
+
+.comp_float_3 .elm2 {
+    background-color: green;
+}
+
+.comp_float_3 .elm3 {
+    background-color: blue;
+}
+
+.comp_display_1 div {
+    display: inline-block;
+    width: 31.2%;
+}
+
+.comp_display_1 {
+    /* width: 114px; */
+}
+
+.comp_float_3 {
+    /* width: 52px; */
+}
+/* estilos de las tablas */
+table th {
+    background-color: #2faff5;
+    color: white;
+    border: 1px dashed;
+    font-family: fantasy;
+}
+
+table td {
+    background-color: #e2e2e2;
+    color: brown;
+}
+.myButton {
+	background-color:#44c767;
+	border-radius:8px;
+	border:2px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:15px 29px;
+	text-decoration:none;
+	text-shadow:-2px -1px 11px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+a.myButton:visited {
+    background-color: black;
+}
+.comp_float_or{
+    background-color:black;
+    width: 300px;
+    padding: 23px;
+}
+
+.comp_float_or .elem {
+    float: left;
+    width: 33.3%;
+}
+.comp_float_or .elm1 {
+    background-color: turquoise;
+}
+
+.comp_float_or .elm2 {
+    background-color: aqua;
+}
+
+.comp_float_or .elm3 {
+    background-color: brown;
+}
+

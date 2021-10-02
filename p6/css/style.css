@@ -1,0 +1,69 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+/* font-family: 'Nunito', sans-serif; */
+
+
+body {background: rgb(72,188,248);/* background: linear-gradient(167deg, rgba(72,188,248,1) 0%, rgba(162,189,219,1) 48%, rgba(97,135,236,1) 100%); */font-family: 'Nunito', sans-serif;}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+}
+
+img.product {
+    width: 100%;
+    padding: 15px;
+}
+.bt_card {
+	background:linear-gradient(to bottom, #4faef6 5%, #8432d6 100%);
+	background-color:#4faef6;
+	border-radius:28px;
+	border:1px solid #8432d6;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:14px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #8432d6;
+}
+.bt_card:hover {
+	background:linear-gradient(to bottom, #8432d6 5%, #4faef6 100%);
+	background-color:#8432d6;
+}
+.bt_card:active {
+	position:relative;
+	top:1px;
+}
+.title {
+    font-size: 16px;
+}
+
+.body {
+    padding: 14px;
+    font-size: 10px;
+}
+
+.stars {
+}
+
+.stars .material-icons {
+    font-size: 14px;
+}
+
+.mount_deta {
+    font-size: 8px;
+}
+
+.mount_tot {
+    font-weight: bold;
+}
+
+a.bt_card {
+}
+
+.col-12.add_to {
+    text-align: center;
+}
