@@ -1,0 +1,30 @@
+.items{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    /* width:400px; */
+    height:100px;
+  }
+  /* .items .item{
+       flex-shrink: 1;
+            flex-grow: 1;
+  
+      flex-basis: 100px;
+  } */
+  .items .item:nth-child(1){
+    border:10px solid black;
+  }
+  .items .item:nth-child(2){
+    border:10px solid green;
+    /* flex-shrink: 2; */
+  
+  }
+  .items .item:nth-child(3){
+    border:10px solid purple;
+  }
+  .items .item:nth-child(4){
+    border:10px solid brown;
+  } 
+  /* .items{
+    display:grid;
+  } */
